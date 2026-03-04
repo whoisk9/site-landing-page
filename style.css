@@ -120,10 +120,16 @@ a{
 .third{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   
     padding: 100px 350px;
-    font-size: 18px;
+    font-size: 36px;
     color: #1F2937;
     background-color: #E5E7EB;
+}
+.text3{
+    text-align: right;
+    font-size: 18px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 20px;
 }
