@@ -1,7 +1,129 @@
 body{
-    font-family:Roboto;
+    font-family:Roboto, sans-serif;
 }
 .first,.footer{
     background-color: #1F2937;
     color:white;
+}
+.first{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 200px;
+    flex-wrap: wrap;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+}
+.logo-text{
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+
+}
+ul{
+    display: flex;
+    list-style: none;
+    color: #E5E7EB;
+    gap: 20px;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+.text-and-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    gap:40px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+}
+.title{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.image {
+    flex: 1;
+    max-width: 540px;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+    
+.text button{
+    margin-top: 20px;
+    width: fit-content;
+    padding: 10px 20px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 6px;
+    font-size: 18px;
+}
+.second{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 200px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 90px;
+}
+.second ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
+}
+.second ul li{
+    flex: 1;
+    max-width: 150px;
+    text-align: center;
+    color: #1F2937;
+    font-size: 18px;
+}
+.second ul li img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 3px solid #3882F6;
+    display: block;
+}
+.third{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 350px;
+    font-size: 18px;
+    color: #1F2937;
+    background-color: #E5E7EB;
 }
